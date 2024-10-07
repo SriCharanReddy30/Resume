@@ -60,11 +60,82 @@ body{
     text-align: center;
     margin-top: 10px;
 }
-
 .profileText h3 span {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7); 
 }
+.contactInfo{
+   
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.contactInfo ul{
+    position: relative;
+    
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.Education li{
+    margin-bottom: 15px;
+}
+.contactInfo.Education h5{
+    color: #03a9f4;
+    font-weight: 500;
+
+}
+.contactInfo.Education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.contactInfo.Education h4{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.skills {
+    /* padding: 20px; */
+    margin-bottom: 20px;
+}
+
+.contactInfo.skills .title {
+    font-size: 24px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    color: #fff;  
+    margin-bottom: 15px;
+}
+
+.contactInfo.skills ul {
+    list-style: none; 
+    padding: 0;  
+    margin: 0;  
+}
+
+.contactInfo.skills li {
+    font-size: 18px; 
+    padding: 8px 0; 
+    color: #03a9f4; 
+    border-bottom: 1px ; 
+}
+
+.contactInfo.skills li:last-child {
+    border-bottom: none; 
+}
+
+
 .container .right{
     position: relative;
     background-color: #fff;
